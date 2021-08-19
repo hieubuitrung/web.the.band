@@ -1,0 +1,108 @@
+/* pc */
+@media ( min-width: 64em){
+    #mobile-menu {
+        display: none;
+    }
+}
+/* tablet & mobile */
+@media ( max-width: 63.9375em){
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+   
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+    .socials-list {
+        font-size: 48px;
+    }
+
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0px;
+        display: inline-block;
+    }
+}
+
+/* tablet */
+@media (min-width: 64.25em) and (max-width: 63.9375em ){
+    #mobile-menu {
+        display: none;
+    }
+
+    
+
+}
+
+/* mobile */
+@media ( max-width: 46.1875em){
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    #header .search-btn {
+        display: none;
+    }
+
+    #header {
+    overflow: hidden; /* khi đối tượng con vượt qua nó thì đối tượng con bị ẩn đi */
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: initial; /* trả về giá trị mặc đinh, sẽ ko còn absolute, cho background ko che đi subnav */
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child { /* thao tác với con đầu tiên của li */
+        display: inline-block;
+    }
+
+    #nav > li a {
+        padding: 1px 24px;
+    }
+
+    #mobile-menu {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    
+    #content .member-img {
+        width: 60%;
+
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+}
